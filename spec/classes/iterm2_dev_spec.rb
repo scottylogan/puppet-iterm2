@@ -3,7 +3,6 @@ require 'spec_helper'
 
 describe "iterm2::dev" do
   version = '20141103'
-  let(:facts) { default_test_facts }
   let(:params) {
     {
       :version => "#{version}"
@@ -22,7 +21,6 @@ end
 describe "iterm2::dev" do
   version = ''
   major = '2_1'
-  let(:facts) { default_test_facts }
   let(:params) {
     {
       :version => "#{version}",

@@ -10,11 +10,12 @@
 #     version => '20140421'
 #   }
 class iterm2::dev($major = '2_0_0', $version = '20150412') {
-  $join = ''
   if ($version != '') and ($major != '') {
     $join = '_'
+  } else {
+    $join = ''
   }
-  
+
   package { 'iTerm':
     source   => "https://iterm2.com/downloads/beta/iTerm2-${major}${join}${version}.zip",
     provider => 'compressed_app'

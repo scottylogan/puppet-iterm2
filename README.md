@@ -1,6 +1,6 @@
 # iTerm2 Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-iterm2.svg?branch=master)](https://travis-ci.org/boxen/puppet-iterm2)
+[![Build Status](https://travis-ci.org/scottylogan/puppet-iterm2.svg?branch=master)](https://travis-ci.org/scottylogan/puppet-iterm2)
 
 ## Usage
 
